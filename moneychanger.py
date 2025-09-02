@@ -6,7 +6,7 @@ import requests
 import json
 import streamlit as st
 import os
-openai import OpenAI
+from openai import OpenAI
 langsmith import wrappers, traceable
 
 token = os.environ["GITHUB_TOKEN"]
